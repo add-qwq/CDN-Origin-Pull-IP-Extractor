@@ -42,6 +42,7 @@
             .content-auto { content-visibility: auto; }
             .card-shadow { box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); }
             .transition-custom { transition: all 0.3s ease; }
+            .user-select-text { user-select: text; }
         }
 
         body {
@@ -104,7 +105,7 @@
     <header class="bg-white sticky top-0 z-50 shadow-sm border-b border-gray-200">
         <div class="container mx-auto px-4 py-4 flex justify-between items-center">
             <div class="flex items-center space-x-3">
-                <h1 class="text-2xl md:text-3xl font-bold text-primary"><a href="/" class="nav-link">CDN回源IP分析工具</a>
+                <h1 class="text-2xl md:text-3xl font-bold tet-primary"><a href="/" class="nav-link">CDN回源IP分析工具</a>
                 </h1>
             </div>
         </div>
@@ -210,7 +211,7 @@
                 <p class="text-gray-700">共识别到 <span id="result-group-count" class="font-bold text-primary">0</span>
                     个IP段，总计 <span id="result-total-count" class="font-bold text-primary">0</span> 个回源IP地址</p>
                 <button id="copy-results"
-                    class="px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-custom flex items-center text-sm">
+                    class="px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-custom flex items-center text-sm user-select-text">
                     <i class="fa fa-copy mr-1"></i>复制结果
                 </button>
             </div>
@@ -241,3 +242,4 @@
 </body>
 
 </html>
+
