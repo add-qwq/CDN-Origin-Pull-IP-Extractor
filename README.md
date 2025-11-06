@@ -5,6 +5,12 @@
 CDN-Origin-Pull-IP-Extractor is a tool for extracting origin-pull IP addresses from CDN access logs. Since obtaining origin-pull IPs from most major CDN providers requires payment and some smaller CDN providers do not offer this feature, this tool aims to help users conveniently extract CDN origin-pull IPs (CDN node ≠ CDN return to source node) by analyzing log content.
 
 
+## Online Demo
+
+[🔗 View Demo](https://www.rockaz.top/CDN-Origin-Pull-IP-Extractor)  
+Note: The website server is located in China. For security defense purposes, all traffic outside China has been blocked.
+
+
 ## Function Description
 
 - Supports analysis and origin-pull IP extraction for two common log formats
@@ -53,11 +59,18 @@ This project is open-sourced under the Apache-2.0 license. For details, please r
 
 This tool's code is based on the original page code from [Rockaz.top](https://www.rockaz.top/CDN-Origin-Pull-IP-Extractor), with streamlining and optimizations (external JS references removed and styles replaced for better user experience).
 
+
 # 中文：
 
 # CDN-Origin-Pull-IP-Extractor
 
 CDN-Origin-Pull-IP-Extractor 是一个用于从CDN访问日志中提取回源IP地址的工具。由于多数大厂CDN的回源IP获取需要付费，而部分小厂CDN未提供该功能，本工具旨在通过分析日志内容，帮助用户便捷地提取CDN回源IP（CDN节点≠CDN回源节点）
+
+
+## 在线演示
+
+[🔗 查看演示](https://www.rockaz.top/CDN-Origin-Pull-IP-Extractor)  
+注：网站服务器位于中国境内，出于安全防御目的，已屏蔽中国境外所有流量
 
 
 ## 功能说明
